@@ -1,0 +1,57 @@
+.container {
+  margin: 100px;
+}
+
+.caja2{
+  border-radius: 100% 50% 100% 50%;
+  height:500px;
+  width: 45%;
+  margin: 10px;
+}
+.caja0, .caja1{
+  border-radius: 50% 5% 50% 5%;
+  height: 500px;
+  width: 45%;
+  margin: 10px;
+}
+.caja3{
+  border-radius: 50% 5% 50% 5%;
+  height: 500px;
+  width: 45%;
+  margin: 10px;
+}
+.container:hover .caja1{
+  transform: translateX(400px);
+}
+.container:hover .caja2{
+	transform: translateX(-400px);
+}
+.container:hover .caja3{
+	transform: translateX(-400px);
+}
+.caja0 {
+  transition: all 1.5s linear;
+  visibility: hidden;
+}
+
+.caja1 {
+	position:absolute;
+	left:0%;
+  background: salmon;
+  transition: all 1.2s ease;
+}
+
+.caja2 {
+	position:absolute;
+	right:0%;
+  background: lightskyblue;
+  transition: all 1.2s ease-in;
+}
+.caja3 {
+	position:absolute;
+	right:0%;
+	top:20%;
+  background: lightskyblue;
+  transition: all 1.2s ease-in;
+}
+
