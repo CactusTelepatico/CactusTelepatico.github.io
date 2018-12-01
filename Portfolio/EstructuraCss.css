@@ -1,0 +1,463 @@
+*{
+	border:0px;
+	margin:0px;
+	padding:0px;
+}
+html{
+	height: 100%;
+	width: 100%;
+}
+body{
+	height: 100%;
+	width: 100%;
+	background-image: url("Img/fondo.gif");
+	background-attachment: fixed;
+	overflow-x:hidden;
+	
+}
+.menu{
+	position:absolute;
+	text-align:center;
+	left:45%;
+	top:0%;
+	float:center;
+	height: 10%;
+	width: 10%;
+	 border-radius: 0 0 110% 110%;
+	 background-image: url("Img/transition1.png");
+	 background-repeat:no-repeat;
+	 background-size:cover;
+	 transition: all 1.6s;
+	 z-index:1;
+}
+.menu:hover{
+	position:absolute;
+	left:42.5%;
+	top:0%;
+	float:center;
+	height: 15%;
+	width: 15%;
+	 border-radius: 0 0 110% 110%;
+	 background-image: url("Img/transition2.png");
+	 background-repeat:no-repeat;
+	 background-size:cover;
+	 z-index:1;
+}
+.menu2{
+	position:absolute;
+	text-align:center;
+	left:45%;
+	top:190%;
+	float:center;
+	height: 10%;
+	width: 10%;
+	 border-radius:110% 110% 0 0;
+	 background-image: url("Img/transition1.png");
+	 background-repeat:no-repeat;
+	 background-size:cover;
+	 transition: all 1.6s;
+	 z-index:1;
+}
+.menu2:hover{
+	position:absolute;
+	left:42.5%;
+	top:185%;
+	float:center;
+	height: 15%;
+	width: 15%;
+	 border-radius:110% 110% 0 0;
+	 background-image: url("Img/transition2.png");
+	 background-repeat:no-repeat;
+	 background-size:cover;
+	 z-index:1;
+}
+.block8{
+	color:snow;
+	position:relative;
+	float:center;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	font-size:40px;
+	font-family: 'Chakra Petch', sans-serif;
+	letter-spacing: 2px;
+	transition: all 1.6s;
+}
+.menu:hover > .block8 {
+	position:relative;
+	float:center;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	font-size:60px;
+	font-family: 'Chakra Petch', sans-serif;
+	color:lightskyblue;
+	
+
+	letter-spacing: 2px;
+}
+.menu2:hover > .block8 {
+	position:relative;
+	float:center;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	font-size:60px;
+	font-family: 'Chakra Petch', sans-serif;
+	color:lightskyblue;
+	
+
+	letter-spacing: 2px;
+}
+.gold{
+	color:gold;
+}
+.coral{
+	color:lightcoral;
+}
+.lblue{
+	color:lightskyblue;
+}
+.blue{
+	color:blueviolet;
+}
+.orange{
+	color:darkorange;
+}
+.green{
+	color:chartreuse;
+}
+.snow{
+	color:snow;
+}
+.img1{
+	background-image: radial-gradient( yellow 20%,gold 20%, transparent 60%);
+	height: 40%;
+	width: 40%;
+	transition:0.5s;
+	
+}
+.img2{
+	position:relative;
+	height: 100%;
+	width: 100%;
+	transition: all 0.5s;
+	
+}
+.img3{
+	position:relative;
+	height: 100%;
+	width: 100%;
+	transition: all 0.5s;
+	
+}
+.img4{
+	position:relative;
+	right:15%;
+	height: 70%;
+	width: 70%;
+	transition: all 0.5s;
+	
+}
+.img5{
+	position:relative;
+	height: 80%;
+	width: 100%;
+	transition: all 0.5s;
+	
+}
+.img6{
+	position:relative;
+	height: 100%;
+	width: 60%;
+	transition: all 0.5s;
+	
+}
+.block1{
+	float:left;
+}
+.block4{
+	height: 40%;
+	width: 40%;
+	position:absolute;
+	float:left;
+	top:20%;
+	
+}
+.block5{
+	height: 40%;
+	width: 40%;
+	position:absolute;
+	float:left;
+	top:20%;
+}
+.block2{
+	position:relative;
+	right:15%;
+	float:right;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	font-size:40px;
+	font-family: 'Chakra Petch', sans-serif;
+
+	letter-spacing: 2px;
+	transition: all 1.6s;
+}
+.block3{
+	opacity:0;
+	position:absolute;
+	top:20%;
+	left:10%;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	font-size:1px;
+	font-family: 'Chakra Petch', sans-serif;
+	letter-spacing: 1px;
+	transition: all 0.8s;
+}
+.block6{
+	float:right;
+	opacity:0;
+	position:absolute;
+	top:20%;
+	right:1%;
+	
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	font-size:1px;
+	font-family: 'Chakra Petch', sans-serif;
+	letter-spacing: 1px;
+	transition: all 0.8s;
+	
+}
+.block7{
+	float:left;
+	opacity:0;
+	position:absolute;
+	top:20%;
+	left:50%;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	font-size:1px;
+	font-family: 'Chakra Petch', sans-serif;
+	letter-spacing: 1px;
+	transition: all 0.8s;
+	
+}
+
+.a1{
+	
+	position:relative;
+	left:15%;
+	top:3%;
+	color:lightcoral;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	float:left;
+	font-size:500%;
+	font-family: 'Chakra Petch', sans-serif;
+	letter-spacing: 2px;
+	transition: all 1.6s;
+}
+.a2{
+	position:relative;
+	right:10%;
+	top:5%;
+	color:lightcoral;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	float:right;
+	font-size:500%;
+	font-family: 'Chakra Petch', sans-serif;
+	letter-spacing: 2px;
+	transition: all 1.6s;
+}
+.a3{
+	opacity:0;
+	position:relative;
+	left:0%;
+	color:lightcoral;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	font-size:1px;
+	font-family: 'Chakra Petch', sans-serif;
+	letter-spacing: 2px;
+	transition: all 1.4s;
+}
+.icon1{
+	position:absolute;
+	top:15%;
+	left:15%;
+	height: 25%;
+	width: 75%;
+	
+	 
+}
+.icon2{
+	position:absolute;
+	top:40%;
+	left:15%;
+	height: 25%;
+	width: 75%;
+	
+	 
+}
+.icon3{
+	position:absolute;
+	top:65%;
+	left:15%;
+	height: 25%;
+	width: 75%;
+	
+	 
+}
+.container1{
+	position:relative;
+	right: 0%;
+	float:left;
+	height: 200%;
+	width: 38%;
+	 border-radius: 0 100% 100% 0;
+	 background-image: url("Img/transition1.png");
+	 background-repeat:no-repeat;
+	 background-size:cover;
+	 transition: all 1.6s;
+	 z-index:1;
+	
+	 
+}
+.container2{
+	position:relative;
+	left: 0%;
+	float:right;
+	height: 200%;
+	width: 38%;
+	 border-radius: 100% 0 0 100%;
+	background-image: url("Img/transition1.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+	 transition: all 1.6s;
+	 z-index:1;
+	 
+}
+
+.container1:hover{
+	position:relative;
+	height: 200%;
+	width: 50%;
+	border-radius: 0 10% 10% 0;
+	background-image: url("Img/transition2.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+	z-index:2;
+	
+}
+.container2:hover{
+	position:relative;
+	height: 200%;
+	width: 50%;
+	border-radius: 10% 0 0 10%;
+	background-image: url("Img/transition2.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+	z-index:2;
+	
+}
+.container1:hover > .a1 {
+	 color:indianred;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+.container2:hover > .a2 {
+	color:indianred;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	
+}
+.container1:hover > .a3 {
+	opacity:1;
+	position:relative;
+	left:15%;
+	color:indianred;
+	font-size:200%;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	
+	
+}
+.icon1:hover > .block3 {
+	opacity:1;
+	left:50%;
+	font-size:24px;
+}
+.icon2:hover > .block3 {
+	opacity:1;
+	left:50%;
+	font-size:24px;
+}
+.icon3:hover > .block3 {
+	opacity:1;
+	left:50%;
+	font-size:24px;
+}
+.icon1:hover > .block6 {
+	opacity:1;
+	right:1%;
+	font-size:24px;
+}
+.icon2:hover > .block7 {
+	opacity:1;
+	right:1%;
+	font-size:24px;
+}
+.icon3:hover > .block6 {
+	opacity:1;
+	right:15%;
+	font-size:24px;
+}
+.container1:hover > .block4 {
+	height: 100%;
+	width: 60%;
+}
+.container1:hover ~ .menu {
+	left:50%;
+}
+.container2:hover ~ .menu {
+	left:40%;
+}
+.container1:hover ~ .menu2 {
+	left:50%;
+}
+.container2:hover ~ .menu2 {
+	left:40%;
+}
+.img1:hover {
+	background-image: radial-gradient( yellow 20%, gold 25%, transparent 60%);
+	height: 50%;
+	width: 50%;
+}
+
+#cont1:target ~ .container1, .a1{
+	position: relative;
+	right: 50%;
+}
+#cont1:target ~ .container2 {
+	position: relative;
+	left: 50%;
+}
+#cont2:target ~ .container1, .a1{
+	position: relative;
+	right: 0%;
+}
+#cont2:target ~ .container2 {
+	position: relative;
+	left: 0%;
+}
+
+.img2:hover {
+	height: 130%;
+	width: 130%;
+}
+.img3:hover {
+	height: 130%;
+	width: 130%;
+}
+.img4:hover {
+	height: 80%;
+	width: 80%;
+}
+
+.img5:hover {
+	height: 100%;
+	width: 120%;
+}
+
+.img6:hover {
+	height: 110%;
+	width: 65%;
+}
+
